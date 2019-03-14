@@ -1,3 +1,5 @@
+/*set serveroutput on*/
+
 DECLARE
     nota1 NUMBER(4,2);
     nota2 NUMBER(4,2);
