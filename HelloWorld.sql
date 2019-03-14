@@ -1,6 +1,8 @@
+/*set serveroutput on*/
+
 DECLARE
-  text VARCHAR2(25);
+    text VARCHAR2(25);
 BEGIN
-  text:= 'Hello World';
-  dbms_output.put_line (text);
+    text:= 'Hello World';
+    dbms_output.put_line (text);
 END;
