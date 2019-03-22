@@ -1,3 +1,5 @@
+/*Exercicio 5*/
+
 DECLARE
     v_numeroQuery FORNECEDOR.NUMERO%type := &Digite_numero_a_ser_consultado;
     v_numero FORNECEDOR.NUMERO%type;
