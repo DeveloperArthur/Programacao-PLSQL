@@ -1,3 +1,4 @@
+/*Exercicio 2*/
 desc fornecedor;
 select * from fornecedor;
 DECLARE
