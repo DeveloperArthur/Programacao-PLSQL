@@ -1,3 +1,5 @@
+/*Exercicio 4*/
+
 DECLARE
     v_valor FORNECEDOR.VALORVENDAS%type := &Digite_valor_a_ser_aumentado;
     v_estrelas FORNECEDOR.ESTRELAS%type := &Digite_parametro_de_estrelas;
