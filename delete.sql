@@ -1,3 +1,4 @@
+/*Exercicio 3*/
 DECLARE
     v_numero FORNECEDOR.NUMERO%type := &NUMERO_DO_FORNECEDOR;
 BEGIN
