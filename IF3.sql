@@ -1,12 +1,12 @@
 /*
-ACESSAR TABELA FORNECEDOR, CUJO CÓDIGO DEVERÁ SER INFORMADO NA TELA E 
-ALTERAR O VALOR DA COMISSÃO, NAS CONDIÇÕES ABAIXO. 
+ACESSAR TABELA FORNECEDOR, CUJO CÃ“DIGO DEVERÃ SER INFORMADO NA TELA E 
+ALTERAR O VALOR DA COMISSÃƒO, NAS CONDIÃ‡Ã•ES ABAIXO. 
 Fazer usando IF-THEN-ELSE e fazer usando CASE. 
 
-Fazer a seguinte atualização na comissão:
-Se as vendas forem maiores que 6000 a comissão deverá ser 15% do valor das vendas
-Caso contrário  a comissão deverá ser 5% do valor das vendas
-No final, dar uma mensagem do valor calculado da comissão.
+Fazer a seguinte atualizaÃ§Ã£o na comissÃ£o:
+Se as vendas forem maiores que 6000 a comissÃ£o deverÃ¡ ser 15% do valor das vendas
+Caso contrÃ¡rio  a comissÃ£o deverÃ¡ ser 5% do valor das vendas
+No final, dar uma mensagem do valor calculado da comissÃ£o.
 */
 
 DECLARE
@@ -18,7 +18,7 @@ BEGIN
     into v_vendas
     from FORNECEDOR where NUMERO = v_numero;
 
-    IF v_vendas > 6000 THEN 
+    IF v_vendas >= 6000 THEN 
       update fornecedor
       set FORNECEDOR.VALORCOMISSAO = FORNECEDOR.VALORVENDAS*0.15
       where NUMERO = v_numero;
