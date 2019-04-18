@@ -1,0 +1,15 @@
+CONNECT / AS SYSDBA    -> Pressione Enter 
+
+ALTER PROFILE DEFAULT LIMIT PASSWORD_LIFE_TIME UNLIMITED;   -> Pressione Enter
+
+ALTER USER scott identified by values '1234'; -> Pressione Enter
+
+connect scott  -> Pressione Enter
+senha: 1234  -> Pressione Enter
+
+CONNECT / AS SYSDBA    -> Pressione Enter 
+
+ALTER USER scott identified by values 'tiger'; -> Pressione Enter
+
+connect scott  -> Pressione Enter
+senha: tiger  -> Pressione Enter
