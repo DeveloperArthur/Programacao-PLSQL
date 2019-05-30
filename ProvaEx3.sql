@@ -1,3 +1,9 @@
+/*3. Construa uma procedure que tenha 3 parâmetros numéricos como entrada, representando
+tres notas do aluno (AV1, AV2 e AV3).
+O programa deverá calcular media aritmética considerando AV1, AV2 e AV3. Caso media seja igual
+ou superior a 6 retornar APROVADO caso contrário retornar REPROVADO.
+OBS: não usar DBMS_OUTPUT dentro da procedure.*/
+
 CREATE OR REPLACE PROCEDURE pc_media
 (v_n1 IN number,v_n2 IN number,v_n3 IN number, v_res OUT VARCHAR2)
 IS
