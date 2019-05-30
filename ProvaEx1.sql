@@ -16,7 +16,6 @@ Criar uma trigger que sempre que se efetuar uma alteração ou uma deleção na 
 dados deverão ser gravados em cadastro_log. OBS: caso seja alteração, gravar 1 no campo
 operacao, caso seja deleção gravar 2 no campo operacao.*/
 
-
 create or replace trigger tg_grava
 before update or delete
 on aluno
