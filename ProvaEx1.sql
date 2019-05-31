@@ -26,5 +26,5 @@ begin
   end if;
   if deleting then
     INSERT INTO cadastro_log VALUES (:OLD.RA, :OLD.NOTA,:NEW.NOTA,:OLD.SITUACAO,:NEW.SITUACAO,2);
-    end if;
+  end if;
 END;
